@@ -1,0 +1,132 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+.left {
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+.right {
+  width: 35vw;
+  margin-right: 6rem;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 6rem;
+  gap: 1.5rem;
+}
+.right > div {
+  width: 145px;
+  height: 141px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  border-radius: 20px;
+  gap: .5rem;
+}
+.btn {
+  background-color: #ff0000;
+  position: absolute;
+  bottom: 3rem;
+  right: 9.3rem;
+  width: 140px;
+  color: white;
+  height: 35px;
+  background: #148a08;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  border-radius: 31px;
+}
+.left > h3 {
+  color: #72db73;
+  font-family: Single Day;
+  font-size: 51px;
+  font-weight: 400;
+  line-height: 99px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 6rem;
+}
+.left > h1 {
+  font-family: Roboto;
+  font-size: 48px;
+  width: 50%;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.choice {
+  width: 16rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.choice > button {
+  /* margin-left: 0.5rem; */
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  width: 110px;
+  color: white;
+  height: 35px;
+  /* top: 643px;     */
+  background: #148a08;
+  /* left: 133px; */
+  border-radius: 31px;
+  /* padding: .5rem; */
+}
+.warning {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+}
+.warning > span {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ff0000;
+}
+.warning > img {
+  width: 20px;
+  height: 20px;
+  margin-right: .5rem;
+}
+.span {
+  display: flex;
+  flex-direction: row;
+  align-content: center; 
+  justify-content: space-around;
+  align-items: center;
+}
+.title {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}

@@ -1,0 +1,358 @@
+.profile {
+  width: 480px;
+  height: 330px;
+  background: #5746ea;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 33.3px;
+  gap: 2rem;
+  position: fixed;
+  left: 25rem;
+  padding-left: 2rem;
+}
+.profileImage > img {
+  margin-left: 100rem;
+}
+.profileDetails {
+  color: #ffff;
+}
+.profileDetails > h3 {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.profileDetails > h2 {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.profileDetails > h1 {
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.profileCategories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.profileRight {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  height: 100%;
+  justify-content: center;
+}
+.btn {
+  width: 90px;
+  color: white;
+  height: 30px;
+  background: #9f94ff;
+  border-radius: 31px;
+  border: none;
+  font-weight: 500;
+}
+.notes {
+  width: 330px;
+  height: 440px;
+  border-radius: 19px;
+  background: #f1c75b;
+  position: fixed;
+  bottom: 18rem;
+  right: 18rem;
+}
+.notes > h1 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.notes > textarea {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background-color: #f1c75b;
+  border: none;
+  outline: none;
+  padding-right: 15px;
+  resize: none;
+  font-family: Roboto;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+textarea::-webkit-scrollbar {
+  width: 12px;
+}
+textarea::-webkit-scrollbar-thumb {
+  background: #ffe6a6;
+  border-radius: 15px;
+}
+textarea::-webkit-scrollbar-track {
+  background-color: #f1c75b;
+}
+.news {
+  position: absolute;
+  font-family: "Roboto";
+  border-radius: 1.25rem;
+  max-width: 22rem;
+  width: 640px;
+  height: 550px;
+  border-radius: 19px;
+}
+.news > img {
+  width: 100%;
+  height: 60%;
+  border-radius: 19px 19px 0 0;
+}
+.head {
+  position: absolute;
+  padding: 1.5rem 1.5rem;
+  font-size: 1.4rem;
+  top: 40%;
+  font-weight: 600;
+  color: #fff;
+  height: 11%;
+  background-color: #000000bd;
+  border-radius: 19px;
+}
+.details {
+  border-radius: 0 0 19px 19px;
+  padding: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 18rem;
+  height: 30%;
+}
+.weather {
+  width: 480px;
+  height: 240px;
+  border-radius: 33.43px;
+  background: #101744;
+  position: absolute;
+  bottom: 9.5rem;
+  color: #fff;
+  right: 39.5rem;
+}
+.top {
+  width: 100%;
+  height: 25%;
+}
+.top > span {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 78px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background: #ff4ade;
+  border-radius: 33.3px 33.3px 0 0;
+  justify-content: center;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 75%;
+  align-items: center;
+  justify-content: space-around;
+  align-content: stretch;
+}
+.clouds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clouds > img {
+  height: 110px;
+  width: 110px;
+}
+
+.clouds > p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 139.688%;
+}
+.temperature {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.degree > p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+.pressur > img {
+  width: 18px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.pressur > span {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+.air {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.wind {
+  display: flex;
+  gap: 0.6rem;
+  flex-direction: row;
+  align-items: center;
+}
+.wind > img {
+  width: 30px;
+  height: 25px;
+}
+.wind > span {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+.humid {
+  display: flex;
+  gap: 0.6rem;
+  flex-direction: row;
+  align-items: center;
+}
+.humid > span {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+.humid > img {
+  width: 30px;
+  height: 25px;
+}
+.Timer {
+  position: relative;
+  top: 0;
+  display: flex;
+  border-radius: 20px;
+  width: 750px;
+  height: 220px;
+  background-color: #1e2343;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.circular {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #1e2343;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  background: #191e39;
+  box-shadow: 0 6px 26px #0000009c inset, -3px -7px 16px #5f58583b;
+  align-items: center;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+.valueInside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.controller {
+  display: flex;
+  margin-top: 2rem;
+  height: 12.5rem;
+  padding-top: 1rem;
+  flex-direction: row;
+  gap: 4rem;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hour,
+.minute,
+.second {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.8rem;
+  height: 100%;
+}
+.buttonToStart {
+  position: fixed;
+  bottom: 20px;
+  top: 10.4rem;
+  border: none;
+  margin-top: 0.9rem;
+  font-size: 1.1rem;
+  color: #fff;
+  width: 17rem;
+  height: 2rem;
+  border-radius: 90000px;
+  background-color: #ff6a6a;
+  cursor: pointer;
+}
+.minute > p,
+.hour > p,
+.second > p {
+  font-family: Dm Sans;
+  font-size: 1.1rem;
+  color: #949494;
+}
+
+.minute > span,
+.hour > span,
+.second > span {
+  font-size: 1.5rem;
+  color: #fff;
+}

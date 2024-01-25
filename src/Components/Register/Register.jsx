@@ -40,7 +40,7 @@ const Register = () => {
       isValid = false;
     }
     if (isValid) {
-      localStorage.setItem("UserData", formData);
+      localStorage.setItem("UserData", JSON.stringify(formData));
       navigate("/genre");
     }
     setErrors(newErrors);

@@ -5,7 +5,6 @@
   justify-content: space-evenly;
   background-color: black;
 }
-
 .left {
   width: 40vw;
   height: 100vh;
@@ -16,28 +15,17 @@
   gap: 2rem;
   justify-content: flex-start;
 }
-
 .right {
   width: 35vw;
   margin-right: 6rem;
   height: 70vh;
+  margin-top: 6rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 6rem;
   gap: 1.5rem;
-}
-.right > div {
-  width: 145px;
-  height: 141px;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-evenly; */
-  align-items: center;
-  border-radius: 20px;
-  gap: .5rem;
 }
 .btn {
   background-color: #ff0000;
@@ -55,6 +43,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   border-radius: 31px;
+  border: none;
 }
 .left > h3 {
   color: #72db73;
@@ -82,17 +71,15 @@
   flex-wrap: wrap;
 }
 .choice > button {
-  /* margin-left: 0.5rem; */
   margin-bottom: 1rem;
   margin-right: 1rem;
   width: 110px;
   color: white;
   height: 35px;
-  /* top: 643px;     */
   background: #148a08;
-  /* left: 133px; */
   border-radius: 31px;
-  /* padding: .5rem; */
+  border: none;
+  font-weight: 700;
 }
 .warning {
   display: flex;
@@ -112,14 +99,15 @@
 .warning > img {
   width: 20px;
   height: 20px;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 .span {
   display: flex;
   flex-direction: row;
-  align-content: center; 
+  align-content: center;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
 }
 .title {
   font-family: DM Sans;
@@ -129,4 +117,17 @@
   letter-spacing: 0em;
   text-align: left;
   color: #ffffff;
+}
+.rightHead {
+  width: 145px;
+  height: 141px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  gap: 0.5rem;
+}
+.span > span {
+  color: rgb(8, 92, 0);
+  font-size: medium;
 }
